@@ -13,7 +13,10 @@
     <!--<link rel="stylesheet" href="assets/css/reset.css">-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous">
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/javascript/portfolio.js"></script>
 </head>
 
 <body>
@@ -32,7 +35,7 @@
             </li>
         </ul>
     </nav>
-    <div class="container"  id="mainContainer">
+    <div class="container" id="mainContainer">
         <div class="row">
             <div class="col-xs-12 col-s-12 col-md-8 col-lg-8 mainContent">
                 <div class="page-header">
@@ -41,12 +44,17 @@
                 <hr>
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-                        <div class="imageContainer">
-                            <img  class="portImage" src="assets/images/hangman.png" alt="Hangman">
-                            <div class="imageLabel">
-                                <strong>Hangman</strong>
+
+                        <!-- Click on image will open the hangman link in a new tab-->
+                        <!--<a href="https://www.google.com/" target="_blank">-->
+                        <a href="https://rmxjohnson.github.io/Word-Guess/" target="_blank">
+                            <div class="imageContainer">
+                                <img class="portImage" id="imageHangman" src="assets/images/hangman.png" alt="Hangman">
+                                <div class="imageLabel">
+                                    <strong>Hangman</strong>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                         <div class="imageContainer">
