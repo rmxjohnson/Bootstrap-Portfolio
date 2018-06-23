@@ -40,6 +40,13 @@ h6 {
     color: #4aaaa5;
 }
 
+.info-card,
+.nav-link {
+    font-family: 'Georgia',Times,'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-weight: 700;
+}
+
 h1{
     font-family: 'Georgia',Times,'Times New Roman', Times, serif;
     color: #ffffff;
@@ -135,7 +142,7 @@ h1{
     padding-top: 10px;
     padding-bottom:10px; 
     padding-left: 10px;   
-    bottom: 40px;
+    bottom: 20px;
     text-align: center;
     color: #ffffff;
     background-color: #4aaaa5;
@@ -145,12 +152,29 @@ h1{
     
 }
 
+.codelink{
+    /*position: absolute;*/
+    margin-left: 50px;
+    margin-top: 0px;
+    /*padding-top: 10px;
+    padding-bottom:10px; 
+    padding-left: 10px;   
+    bottom: 40px;
+    text-align: center;
+    color: #4aaaa5;
+    /*background-color: #4aaaa5;*/
+    width: 198px;
+    display: flex;
+    justify-content: center;
+
+}
+
 .portImage{
     width: 200px;
     height: 150px;
     margin-top: 20px;
     margin-left: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-color: black;
     border: 1px;
     border-style: solid;
